@@ -46,12 +46,13 @@ img {
 body {
     font-size: 17px;
     color: #333333;
-    font-family: 'Candara', serif;
+    font-family: 'Candara';
     line-height: 1.75;
 	background-color: #BBBBBB;
 }
 
 h1, h2, h3, h4, h5, h6 {
+	font-family: 'Crimson Text', serif;
     padding: 0;
     margin: 60px 0 30px;
     line-height: 1.25;
