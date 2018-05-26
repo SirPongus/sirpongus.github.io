@@ -3,7 +3,7 @@
  *  Google fonts served locally.
  * -------------------------------------------------------------------------
  */
-
+ 
 @font-face {
   font-family: 'Crimson Text';
   font-style: normal;
@@ -70,3 +70,45 @@
        url(fonts/CrimsonText-SemiBoldItalic.ttf) format('truetype');
 }
 */
+
+/**
+ * -------------------------------------------------------------------------
+ *  Custom fonts.
+ * -------------------------------------------------------------------------
+ */
+
+ @font-face {
+  font-family: 'Candara';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Candara Regular'),
+       local('Candara-Regular'),
+       url(fonts/Candara-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Candara';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Candara Italic'),
+       local('Candara-Italic'),
+       url(fonts/Candara-Italic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Candara';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Candara Bold'),
+       local('Candara-Bold'),
+       url(fonts/Candara-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Candara';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Candara Bold Italic'),
+       local('Candara-BoldItalic'),
+       url(fonts/Candara-BoldItalic.ttf) format('truetype');
+}
